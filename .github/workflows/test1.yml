@@ -16,7 +16,9 @@ jobs:
       # - run: npm ci
       # - run: npm run build --if-present
       # - run: npm test
-      - run: cd helloworld && npm install && npm run test:ci
+      - run: npm install && npm run test:ci
+      
+      # - run: cd helloworld && npm install && npm run test:ci
 
 # name: tests-auth
 
